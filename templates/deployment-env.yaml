@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
   - name: simple-webapp-color
-    image: simple-webapp-color
+    image: naveengogu/python-web-app:v1
     ports:
       - containerPort: 8080
     env:
